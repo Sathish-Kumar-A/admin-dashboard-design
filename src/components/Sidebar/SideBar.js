@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaSmileWink } from "react-icons/fa";
 import { AiOutlineDashboard } from "react-icons/ai";
-import {AiOutlineAreaChart} from "react-icons/ai";
+import { AiOutlineAreaChart } from "react-icons/ai";
 
 import { SidebarOption } from '../SidebarOption/SidebarOption';
 import "./sidebar.css";
@@ -21,12 +21,14 @@ const SideBar = () => {
           isActive={active === "Dashboard"}
           setActive={setActive}
           Icon={AiOutlineDashboard}
+          redirectTo="/"
         />
         <SidebarOption
           text="Chart"
           isActive={active === "Chart"}
           setActive={setActive}
           Icon={AiOutlineAreaChart}
+          redirectTo="/chart"
         />
         </div>
     </div>

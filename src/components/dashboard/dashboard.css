@@ -2,3 +2,7 @@
     background-color: #F7F8FB;
     flex:1;
 }
+.dashboard_text{
+    font-size: 1.7rem;
+    color: rgb(61, 60, 60);
+}

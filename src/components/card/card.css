@@ -1,0 +1,19 @@
+.card_wrapper{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px rgb(221, 220, 220);
+}
+.card_text{
+    font-weight: 600;
+    font-size: 0.7rem;
+}
+.card_number{
+    font-weight:800;
+    font-size: 1.3rem;
+}
+.card_icon{
+    height:35px;
+    width:35px;
+    color:#DDDFEB;
+    margin-left: 50px;
+}
