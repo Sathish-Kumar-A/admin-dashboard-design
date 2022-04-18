@@ -11,9 +11,16 @@
     font-weight:800;
     font-size: 1.3rem;
 }
-.card_icon{
+.card_icon,.card_icon1{
     height:35px;
     width:35px;
     color:#DDDFEB;
+    /* margin-left: 50px; */
+}
+.card_icon{
     margin-left: 50px;
+}
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    opacity: 0;
 }

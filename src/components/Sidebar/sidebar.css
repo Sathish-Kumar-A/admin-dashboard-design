@@ -16,3 +16,9 @@
 .active_text{
     font-weight: bold;
 }
+
+@media only screen and (max-width:425) {
+    .wrapper{
+        display: none;
+    }
+}

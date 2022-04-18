@@ -7,6 +7,7 @@ import { CgNotes } from "react-icons/cg";
 import { IoIosChatbubbles } from "react-icons/io";
 import { BsFillCalendarFill } from "react-icons/bs";
 import "./dashboard.css";
+import { Charts } from '../chart/Charts';
 
 export const Dashboard = () => {
   return (
@@ -14,14 +15,14 @@ export const Dashboard = () => {
         <Header />
 
       <div className = ' d-flex justify-content-between align-items-center my-3 mx-3'>
-        <p className='dashboard_text'>Dashboard</p>
+        <p className='dashboard_text mb-0'>Dashboard</p>
         <button className='btn btn-primary'>
           <ImDownload3 className='text-secondary mx-2'/>
           Generate Report
         </button>
       </div>
 
-      <div className='dash_cards d-flex justify-content-around'>
+      <div className='dash_cards d-flex justify-content-around align-items-around flex-wrap'>
         <Card
           number="$40,000"
           text="EARNINGS (MONTHLY)"
@@ -51,6 +52,7 @@ export const Dashboard = () => {
           progress={false}
         />
       </div>
+      <Charts />
     </div>
   )
 }

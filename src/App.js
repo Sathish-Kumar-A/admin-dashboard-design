@@ -2,7 +2,7 @@ import './App.css';
 import SideBar from './components/Sidebar/SideBar';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import { Dashboard } from './components/dashboard/Dashboard';
-import { Chart } from './components/chart/Chart';
+import { Charts } from './components/chart/Charts';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
           <SideBar />
           <Routes>
             <Route path="/" element={<Dashboard />} />
-            <Route path="/chart" element={<Chart />} />
+            <Route path="/chart" element={<Charts />} />
           </Routes>
         </BrowserRouter>
         </div>

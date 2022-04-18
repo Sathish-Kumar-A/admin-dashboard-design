@@ -1,0 +1,13 @@
+.chart-wrapper{
+    width:95%;
+}
+.line-chart{
+    width:650px;
+    height: 320px;
+}
+.donut-chart{
+    display: flex;
+    align-items: center;
+    width:350px;
+    height:320px;
+}
